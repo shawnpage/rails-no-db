@@ -10,7 +10,9 @@ $ rails new <app_name> -OSJ
 The options used are as follows:
 
   -O, [--skip-active-record]     # Skip Active Record files
+
   -S, [--skip-sprockets]         # Skip Sprockets files
+
   -J, [--skip-javascript]        # Skip JavaScript files
 
 The option we are concerned with the most for this proof of concept is -O which
@@ -26,8 +28,11 @@ To run this proof of concept clone the repository, run 'bundle install', start t
 e.g.:
 
 git clone git://github.com/shawnpage/rails-no-db.git
+
 cd rails-no-db
+
 bundle install
+
 ./script/server rails s
 
 http://localhost:3000
