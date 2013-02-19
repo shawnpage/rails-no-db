@@ -1,5 +1,0 @@
-== Welcome to rails_no_db
-
-This is a proof of concept app demonstrating a rails app with no datastore.
-
-
